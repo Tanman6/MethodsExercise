@@ -9,6 +9,7 @@ namespace MathMethod
             int num1 = 0;
             int num2 = 0;
             int addTotal = 0;
+            int minusTotal = 0;
             int multTotal = 0;
             int divideTotal = 0;
             int modulusRemainder = 0; //modulus returns the remainder
@@ -21,6 +22,9 @@ namespace MathMethod
 
             addTotal = Add(num1, num2);
             Console.WriteLine($"{num1} + {num2} = {addTotal}");
+            
+            minusTotal = Subtract(num1, num2);
+            Console.WriteLine($"{num1} - {num2} = {minusTotal}");
 
             multTotal = Multiply(num1, num2);
             Console.WriteLine($"{num1} * {num2} = {multTotal}");
@@ -36,6 +40,11 @@ namespace MathMethod
         public static int Add(int num1, int num2)
         {
             return num1 + num2;
+        }
+        
+        public static int Subtract(int num1, int num2)
+        {
+            return num1 - num2;
         }
 
         public static int Multiply(int num1, int num2)
