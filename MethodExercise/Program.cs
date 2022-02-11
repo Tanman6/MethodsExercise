@@ -54,9 +54,9 @@ namespace MethodExercise
             Console.WriteLine("What is your name? ");
             string name = Console.ReadLine();
 
-            Console.WriteLine("Dear Dr. {lastName},");
+            Console.WriteLine($"Dear Dr. {lastName},");
 
-            Console.WriteLine("");
+            Console.WriteLine($"");
 
             Console.WriteLine($"I cannot make it to {noun1} this {amOrPm}." +
                 $"I am very {adjective} and cannot stop {ingVerb} my {bodyPart}." +
