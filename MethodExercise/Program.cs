@@ -6,7 +6,7 @@ namespace MethodExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a random last name: ");
+            Console.WriteLine("Enter a last name: ");
             string lastName = Console.ReadLine();
             
             Console.WriteLine("Enter a noun: ");
